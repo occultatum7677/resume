@@ -1,9 +1,7 @@
 <!-- 
 Name: Wyatt Broughton
-Class: CSC 3360
-Professor: Zhengkun Ye
-Date 1/20/2026
-Desc: Resume page. 
+Date 5/25/2026
+Desc: Resume page 
 -->
 <!DOCTYPE html>
 <html lang="en">
@@ -47,8 +45,8 @@ Desc: Resume page.
             ];
 
             const skills = {
+                cybersecurity: ['Digital Forensics', 'Network Security', 'Kali Linux', 'Information Technology', 'Discrete Structures'],
                 programming: ['C++', 'Java', 'Python', 'JavaScript', 'HTML5', 'SQL'],
-                cybersecurity: ['Kali Linux', 'Network Security', 'Digital Forensics', 'Information Technology', 'Discrete Structures'],
                 designTools: ['Solidworks', 'Blender', 'Unity', 'Unreal Engine', 'CAD Modeling'],
                 professional: ['Problem Solver', 'Reliable', 'Critical Thinking', 'Creative']
             };
@@ -117,10 +115,10 @@ Desc: Resume page.
                                 Wyatt Alexander Broughton
                             </h1>
                             <p className="text-xl md:text-2xl text-blue-600 font-medium mb-6">
-                                Computer Science with a focus on Cybersecurity
+                                Bachelors of Science in Computer Science with a focus on Cybersecurity, AArts/Science
                             </p>
                             <p className="max-w-2xl mx-auto text-slate-600 text-lg mb-10 leading-relaxed">
-                                Senior Computer Science student at UNC Pembroke. Passionate about learning new things, network security, and leveraging technical experience to solve complex challenges.
+                                Computer Science Undergrad student at UNC Pembroke. (Grad May 2026) Passionate about learning new things, network security, and leveraging technical experience to solve complex challenges.
                             </p>
                             <div className="flex flex-wrap justify-center gap-4">
                                 <a href="#contact" className="bg-blue-600 text-white px-8 py-3 rounded-full font-bold shadow-lg hover:bg-blue-700 transform transition hover:-translate-y-1">
@@ -143,13 +141,13 @@ Desc: Resume page.
                                     </h2>
                                     <div className="space-y-4 text-slate-600 text-lg leading-relaxed">
                                         <p>
-                                            I am a Senior at the University of North Carolina at Pembroke, pursuing a <span className="text-blue-600 font-semibold">Bachelor of Science in Computer Science</span> with a focus on the Cybersecurity track.
+                                            I graduated from the University of North Carolina at Pembroke in May of 2026 with a <span className="text-blue-600 font-semibold">Bachelors of Science in Computer Science</span> with a focus on the Cybersecurity track.
                                         </p>
                                         <p>
-                                            My academic journey is complemented by a 3.68 Major GPA and over 7 years of university experience in technical fields including CAD modeling, visual effects, and game server management. I thrive in environments that require both analytical problem-solving and creative design thinking.
+                                            3.55 Cumulative GPA; 3.74 Major GPA; my academic journey and over 7 years of university experience in technical fields, while having a focus on Digital Forensics, I thrive in environments that require both analytical problem-solving and creative design thinking.
                                         </p>
                                         <p>
-                                            I balanced my studies with part-time retail positions until I was promoted into a leadership role as a Full-Time Head Cashier at Lowe's Home Improvement, where I've been recognized for my ability to deliver results and manage complex front-end systems. More about me will be added here.
+                                            I balanced my studies with part-time retail positions until I was promoted into a leadership role as a Full-Time Head Cashier at Lowe's Home Improvement, where I've been recognized for my ability to deliver results and manage complex front-end systems. Left August 2025 to complete my Senior year.
                                         </p>
                                     </div>
                                 </div>
@@ -188,16 +186,16 @@ Desc: Resume page.
                             <div className="grid md:grid-cols-4 gap-8">
                                 <div className="bg-white p-8 rounded-3xl shadow-sm border border-slate-100">
                                     <i data-lucide="code-2" className="text-blue-600 mb-6" style={{width: '40px', height: '40px'}}></i>
-                                    <h3 className="text-xl font-bold mb-4 text-slate-900">Programming</h3>
+                                    <h3 className="text-xl font-bold mb-4 text-slate-900">Cybersecurity</h3>
                                     <ul className="space-y-3">
-                                        {skills.programming.map(s => <li key={s} className="text-slate-600 flex items-center"><i data-lucide="chevron-right" className="text-blue-400 mr-2" style={{width: '16px', height: '16px'}}></i>{s}</li>)}
+                                        {skills.cybersecurity.map(s => <li key={s} className="text-slate-600 flex items-center"><i data-lucide="chevron-right" className="text-blue-400 mr-2" style={{width: '16px', height: '16px'}}></i>{s}</li>)}
                                     </ul>
                                 </div>
                                 <div className="bg-white p-8 rounded-3xl shadow-sm border border-slate-100">
                                     <i data-lucide="lock" className="text-blue-600 mb-6" style={{width: '40px', height: '40px'}}></i>
-                                    <h3 className="text-xl font-bold mb-4 text-slate-900">Cybersecurity</h3>
+                                    <h3 className="text-xl font-bold mb-4 text-slate-900">Computer Science</h3>
                                     <ul className="space-y-3">
-                                        {skills.cybersecurity.map(s => <li key={s} className="text-slate-600 flex items-center"><i data-lucide="chevron-right" className="text-blue-400 mr-2" style={{width: '16px', height: '16px'}}></i>{s}</li>)}
+                                        {skills.programming.map(s => <li key={s} className="text-slate-600 flex items-center"><i data-lucide="chevron-right" className="text-blue-400 mr-2" style={{width: '16px', height: '16px'}}></i>{s}</li>)}
                                     </ul>
                                 </div>
                                 <div className="bg-white p-8 rounded-3xl shadow-sm border border-slate-100">
